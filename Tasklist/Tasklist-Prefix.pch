@@ -1,0 +1,50 @@
+//
+// Prefix header for all source files of the 'Tasklist' target in the 'Tasklist' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#define TASK_TITLEID                @"task_titleid"
+#define TASK_TITLE                  @"task_title"
+#define TASK_DESCRIPTION            @"task_description"
+#define TASK_DATE                   @"task_date"
+#define TASK_COMPLETION             @"task_completion"
+#define TASK_NOTIFICATION           @"task_notification"
+#define TASKLIST_OBJECT_KEY         @"tasklist_object_key"
+
+// color scheme
+#define COLOR_SCHEME_OBJECT_KEY     @"rgb_color_scheme"
+
+#define TEXT_RED_COLOR                   @"text_red_color"
+#define TEXT_GREEN_COLOR                 @"text_green_color"
+#define TEXT_BLUE_COLOR                  @"text_blue_color"
+
+#define BG_RED_COLOR                   @"bg_red_color"
+#define BG_GREEN_COLOR                 @"bg_green_color"
+#define BG_BLUE_COLOR                  @"bg_blue_color"
+
+#define     NAVBAR_COLOR_R      ( 30.0f / 255.0f )
+#define     NAVBAR_COLOR_G      ( 193.0f / 255.0f )
+#define     NAVBAR_COLOR_B      ( 210.0f / 255.0f )
+
+// orange
+//#define     NAVBAR_COLOR_R      ( 252.0f / 255.0f )
+//#define     NAVBAR_COLOR_G      ( 129.0f / 255.0f )
+//#define     NAVBAR_COLOR_B      ( 88.0f / 255.0f )
+
+// date time format
+#define DATE_FORMAT                     @"my_date_format"
+#define TIME_FORMAT                     @"my_time_format"
+
+#define    TLTodayTasks         0
+#define    TLTomorrowTasks      1
+#define    TLAllTasks           2
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

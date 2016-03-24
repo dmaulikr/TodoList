@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262104501856CF680087763D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2621044F1856CF680087763D /* UIKit.framework */; };
+		262104521856CF680087763D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262104511856CF680087763D /* Foundation.framework */; };
+		262104541856CF680087763D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262104531856CF680087763D /* CoreGraphics.framework */; };
+		2621045A1856CF680087763D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 262104581856CF680087763D /* InfoPlist.strings */; };
+		2621045C1856CF680087763D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2621045B1856CF680087763D /* main.m */; };
+		262104601856CF680087763D /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2621045F1856CF680087763D /* TLAppDelegate.m */; };
+		262104621856CF680087763D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 262104611856CF680087763D /* Default.png */; };
+		262104641856CF680087763D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262104631856CF680087763D /* Default@2x.png */; };
+		262104661856CF680087763D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262104651856CF680087763D /* Default-568h@2x.png */; };
+		262104691856CF680087763D /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262104681856CF680087763D /* TLViewController.m */; };
+		2621046C1856CF680087763D /* TLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2621046A1856CF680087763D /* TLViewController.xib */; };
+		EE2A63ED185EC7C30029AD26 /* fIcon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63E3185EC7C30029AD26 /* fIcon-29.png */; };
+		EE2A63EE185EC7C30029AD26 /* fIcon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63E4185EC7C30029AD26 /* fIcon-50.png */; };
+		EE2A63EF185EC7C30029AD26 /* fIcon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63E5185EC7C30029AD26 /* fIcon-57.png */; };
+		EE2A63F0185EC7C30029AD26 /* fIcon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63E6185EC7C30029AD26 /* fIcon-58.png */; };
+		EE2A63F1185EC7C30029AD26 /* fIcon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63E7185EC7C30029AD26 /* fIcon-72.png */; };
+		EE2A63F2185EC7C30029AD26 /* fIcon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63E8185EC7C30029AD26 /* fIcon-80.png */; };
+		EE2A63F3185EC7C30029AD26 /* fIcon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63E9185EC7C30029AD26 /* fIcon-100.png */; };
+		EE2A63F4185EC7C30029AD26 /* fIcon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63EA185EC7C30029AD26 /* fIcon-114.png */; };
+		EE2A63F5185EC7C30029AD26 /* fIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63EB185EC7C30029AD26 /* fIcon-120.png */; };
+		EE2A63F6185EC7C30029AD26 /* fIcon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63EC185EC7C30029AD26 /* fIcon-144.png */; };
+		EE2A63F8185EC93D0029AD26 /* setting_bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63F7185EC93D0029AD26 /* setting_bg1.png */; };
+		EE2A63FF185EDB6E0029AD26 /* TLMenuViewController_lite.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2A63FD185EDAFA0029AD26 /* TLMenuViewController_lite.xib */; };
+		EE67CAEA185810C5008DA12F /* checked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAE8185810C4008DA12F /* checked_checkbox.png */; };
+		EE67CAEB185810C5008DA12F /* unchecked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAE9185810C4008DA12F /* unchecked_checkbox.png */; };
+		EE67CAEF1858132F008DA12F /* TLCustomCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CAED1858132F008DA12F /* TLCustomCellViewController.m */; };
+		EE67CAF01858132F008DA12F /* TLCustomCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAEE1858132F008DA12F /* TLCustomCellViewController.xib */; };
+		EE67CAF818588AFB008DA12F /* TLCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CAF718588AFB008DA12F /* TLCustomCell.m */; };
+		EE67CAFA18588B13008DA12F /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAF918588B13008DA12F /* CustomCell.xib */; };
+		EE67CB00185971F0008DA12F /* TLEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CAFE185971F0008DA12F /* TLEditTaskViewController.m */; };
+		EE67CB01185971F0008DA12F /* TLEditTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAFF185971F0008DA12F /* TLEditTaskViewController.xib */; };
+		EE67CB05185A1453008DA12F /* TLDetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CB03185A1453008DA12F /* TLDetailTaskViewController.m */; };
+		EE67CB06185A1453008DA12F /* TLDetailTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB04185A1453008DA12F /* TLDetailTaskViewController.xib */; };
+		EE67CB0D185C07CD008DA12F /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB0B185C07CD008DA12F /* plus.png */; };
+		EE67CB0E185C07CD008DA12F /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB0C185C07CD008DA12F /* plus@2x.png */; };
+		EE67CB20185D4E1F008DA12F /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB1F185D4E1F008DA12F /* back.png */; };
+		EE67CB33185DD5F8008DA12F /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB2B185DD5F8008DA12F /* Icon-29.png */; };
+		EE67CB34185DD5F8008DA12F /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB2C185DD5F8008DA12F /* Icon-50.png */; };
+		EE67CB35185DD5F8008DA12F /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB2D185DD5F8008DA12F /* Icon-57.png */; };
+		EE67CB36185DD5F8008DA12F /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB2E185DD5F8008DA12F /* Icon-58.png */; };
+		EE67CB37185DD5F8008DA12F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB2F185DD5F8008DA12F /* Icon-72.png */; };
+		EE67CB38185DD5F8008DA12F /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB30185DD5F8008DA12F /* Icon-100.png */; };
+		EE67CB39185DD5F8008DA12F /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB31185DD5F8008DA12F /* Icon-114.png */; };
+		EE67CB3A185DD5F8008DA12F /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB32185DD5F8008DA12F /* Icon-144.png */; };
+		EE67CB3C185DD74D008DA12F /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB3B185DD74D008DA12F /* Icon-120.png */; };
+		EE67CB3E185DD8EC008DA12F /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB3D185DD8EC008DA12F /* Icon-80.png */; };
+		EE67CB41185DF15E008DA12F /* TLCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CAF718588AFB008DA12F /* TLCustomCell.m */; };
+		EE67CB42185DF15E008DA12F /* TLSettingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CF11857473C0034F466 /* TLSettingListViewController.m */; };
+		EE67CB43185DF15E008DA12F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2621045B1856CF680087763D /* main.m */; };
+		EE67CB44185DF15E008DA12F /* TLSettingDateTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CF6185749F00034F466 /* TLSettingDateTimeViewController.m */; };
+		EE67CB45185DF15E008DA12F /* TLDetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CB03185A1453008DA12F /* TLDetailTaskViewController.m */; };
+		EE67CB46185DF15E008DA12F /* TLEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CAFE185971F0008DA12F /* TLEditTaskViewController.m */; };
+		EE67CB47185DF15E008DA12F /* TLCustomCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67CAED1858132F008DA12F /* TLCustomCellViewController.m */; };
+		EE67CB48185DF15E008DA12F /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2621045F1856CF680087763D /* TLAppDelegate.m */; };
+		EE67CB49185DF15E008DA12F /* LLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CE01857237A0034F466 /* LLTask.m */; };
+		EE67CB4A185DF15E008DA12F /* TLAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CE31857253D0034F466 /* TLAddTaskViewController.m */; };
+		EE67CB4B185DF15E008DA12F /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262104681856CF680087763D /* TLViewController.m */; };
+		EE67CB4C185DF15E008DA12F /* TLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CE8185741950034F466 /* TLMenuViewController.m */; };
+		EE67CB4E185DF15E008DA12F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2621044F1856CF680087763D /* UIKit.framework */; };
+		EE67CB4F185DF15E008DA12F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262104511856CF680087763D /* Foundation.framework */; };
+		EE67CB50185DF15E008DA12F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262104531856CF680087763D /* CoreGraphics.framework */; };
+		EE67CB54185DF15E008DA12F /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB0B185C07CD008DA12F /* plus.png */; };
+		EE67CB55185DF15E008DA12F /* unchecked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAE9185810C4008DA12F /* unchecked_checkbox.png */; };
+		EE67CB56185DF15E008DA12F /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAF918588B13008DA12F /* CustomCell.xib */; };
+		EE67CB57185DF15E008DA12F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 262104581856CF680087763D /* InfoPlist.strings */; };
+		EE67CB5A185DF15E008DA12F /* TLDetailTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB04185A1453008DA12F /* TLDetailTaskViewController.xib */; };
+		EE67CB5B185DF15E008DA12F /* TLSettingListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CF21857473C0034F466 /* TLSettingListViewController.xib */; };
+		EE67CB5C185DF15E008DA12F /* TLAddTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CE41857253D0034F466 /* TLAddTaskViewController.xib */; };
+		EE67CB5D185DF15E008DA12F /* checked_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAE8185810C4008DA12F /* checked_checkbox.png */; };
+		EE67CB5E185DF15E008DA12F /* TLCustomCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAEE1858132F008DA12F /* TLCustomCellViewController.xib */; };
+		EE67CB5F185DF15E008DA12F /* TLSettingDateTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CF7185749F00034F466 /* TLSettingDateTimeViewController.xib */; };
+		EE67CB62185DF15E008DA12F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 262104611856CF680087763D /* Default.png */; };
+		EE67CB64185DF15E008DA12F /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB1F185D4E1F008DA12F /* back.png */; };
+		EE67CB66185DF15E008DA12F /* TLEditTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE67CAFF185971F0008DA12F /* TLEditTaskViewController.xib */; };
+		EE67CB67185DF15E008DA12F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262104631856CF680087763D /* Default@2x.png */; };
+		EE67CB68185DF15E008DA12F /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67CB0C185C07CD008DA12F /* plus@2x.png */; };
+		EE67CB69185DF15E008DA12F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262104651856CF680087763D /* Default-568h@2x.png */; };
+		EE67CB6A185DF15E008DA12F /* TLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2621046A1856CF680087763D /* TLViewController.xib */; };
+		EE67CB6B185DF15E008DA12F /* setting_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CEE1857458C0034F466 /* setting_bg.png */; };
+		EEF54CE11857237A0034F466 /* LLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CE01857237A0034F466 /* LLTask.m */; };
+		EEF54CE51857253D0034F466 /* TLAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CE31857253D0034F466 /* TLAddTaskViewController.m */; };
+		EEF54CE61857253D0034F466 /* TLAddTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CE41857253D0034F466 /* TLAddTaskViewController.xib */; };
+		EEF54CEA185741950034F466 /* TLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CE8185741950034F466 /* TLMenuViewController.m */; };
+		EEF54CEB185741950034F466 /* TLMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CE9185741950034F466 /* TLMenuViewController.xib */; };
+		EEF54CEF1857458C0034F466 /* setting_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CEE1857458C0034F466 /* setting_bg.png */; };
+		EEF54CF31857473C0034F466 /* TLSettingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CF11857473C0034F466 /* TLSettingListViewController.m */; };
+		EEF54CF41857473C0034F466 /* TLSettingListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CF21857473C0034F466 /* TLSettingListViewController.xib */; };
+		EEF54CF8185749F00034F466 /* TLSettingDateTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF54CF6185749F00034F466 /* TLSettingDateTimeViewController.m */; };
+		EEF54CF9185749F00034F466 /* TLSettingDateTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF54CF7185749F00034F466 /* TLSettingDateTimeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2621044C1856CF680087763D /* Tasklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2621044F1856CF680087763D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		262104511856CF680087763D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		262104531856CF680087763D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		262104571856CF680087763D /* Tasklist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tasklist-Info.plist"; sourceTree = "<group>"; };
+		262104591856CF680087763D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2621045B1856CF680087763D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2621045D1856CF680087763D /* Tasklist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tasklist-Prefix.pch"; sourceTree = "<group>"; };
+		2621045E1856CF680087763D /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		2621045F1856CF680087763D /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		262104611856CF680087763D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		262104631856CF680087763D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		262104651856CF680087763D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		262104671856CF680087763D /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
+		262104681856CF680087763D /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
+		2621046B1856CF680087763D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TLViewController.xib; sourceTree = "<group>"; };
+		EE2A63E3185EC7C30029AD26 /* fIcon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-29.png"; sourceTree = "<group>"; };
+		EE2A63E4185EC7C30029AD26 /* fIcon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-50.png"; sourceTree = "<group>"; };
+		EE2A63E5185EC7C30029AD26 /* fIcon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-57.png"; sourceTree = "<group>"; };
+		EE2A63E6185EC7C30029AD26 /* fIcon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-58.png"; sourceTree = "<group>"; };
+		EE2A63E7185EC7C30029AD26 /* fIcon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-72.png"; sourceTree = "<group>"; };
+		EE2A63E8185EC7C30029AD26 /* fIcon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-80.png"; sourceTree = "<group>"; };
+		EE2A63E9185EC7C30029AD26 /* fIcon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-100.png"; sourceTree = "<group>"; };
+		EE2A63EA185EC7C30029AD26 /* fIcon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-114.png"; sourceTree = "<group>"; };
+		EE2A63EB185EC7C30029AD26 /* fIcon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-120.png"; sourceTree = "<group>"; };
+		EE2A63EC185EC7C30029AD26 /* fIcon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fIcon-144.png"; sourceTree = "<group>"; };
+		EE2A63F7185EC93D0029AD26 /* setting_bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_bg1.png; sourceTree = "<group>"; };
+		EE2A63FD185EDAFA0029AD26 /* TLMenuViewController_lite.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLMenuViewController_lite.xib; sourceTree = "<group>"; };
+		EE67CAE8185810C4008DA12F /* checked_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked_checkbox.png; sourceTree = "<group>"; };
+		EE67CAE9185810C4008DA12F /* unchecked_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked_checkbox.png; sourceTree = "<group>"; };
+		EE67CAEC1858132F008DA12F /* TLCustomCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCustomCellViewController.h; sourceTree = "<group>"; };
+		EE67CAED1858132F008DA12F /* TLCustomCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCustomCellViewController.m; sourceTree = "<group>"; };
+		EE67CAEE1858132F008DA12F /* TLCustomCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLCustomCellViewController.xib; sourceTree = "<group>"; };
+		EE67CAF618588AFB008DA12F /* TLCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCustomCell.h; sourceTree = "<group>"; };
+		EE67CAF718588AFB008DA12F /* TLCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCustomCell.m; sourceTree = "<group>"; };
+		EE67CAF918588B13008DA12F /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		EE67CAFD185971F0008DA12F /* TLEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLEditTaskViewController.h; sourceTree = "<group>"; };
+		EE67CAFE185971F0008DA12F /* TLEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLEditTaskViewController.m; sourceTree = "<group>"; };
+		EE67CAFF185971F0008DA12F /* TLEditTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLEditTaskViewController.xib; sourceTree = "<group>"; };
+		EE67CB02185A1453008DA12F /* TLDetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDetailTaskViewController.h; sourceTree = "<group>"; };
+		EE67CB03185A1453008DA12F /* TLDetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLDetailTaskViewController.m; sourceTree = "<group>"; };
+		EE67CB04185A1453008DA12F /* TLDetailTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLDetailTaskViewController.xib; sourceTree = "<group>"; };
+		EE67CB0B185C07CD008DA12F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		EE67CB0C185C07CD008DA12F /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		EE67CB1F185D4E1F008DA12F /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EE67CB2B185DD5F8008DA12F /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		EE67CB2C185DD5F8008DA12F /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		EE67CB2D185DD5F8008DA12F /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		EE67CB2E185DD5F8008DA12F /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		EE67CB2F185DD5F8008DA12F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		EE67CB30185DD5F8008DA12F /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
+		EE67CB31185DD5F8008DA12F /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		EE67CB32185DD5F8008DA12F /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		EE67CB3B185DD74D008DA12F /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		EE67CB3D185DD8EC008DA12F /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		EE67CB72185DF15E008DA12F /* Tasklist copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasklist copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE67CB73185DF15E008DA12F /* Tasklist copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Tasklist copy-Info.plist"; path = "/Volumes/WORK_1/Jiang/todo list/Tasklist/Tasklist copy-Info.plist"; sourceTree = "<absolute>"; };
+		EEF54CDF1857237A0034F466 /* LLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTask.h; sourceTree = "<group>"; };
+		EEF54CE01857237A0034F466 /* LLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTask.m; sourceTree = "<group>"; };
+		EEF54CE21857253D0034F466 /* TLAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAddTaskViewController.h; sourceTree = "<group>"; };
+		EEF54CE31857253D0034F466 /* TLAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAddTaskViewController.m; sourceTree = "<group>"; };
+		EEF54CE41857253D0034F466 /* TLAddTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLAddTaskViewController.xib; sourceTree = "<group>"; };
+		EEF54CE7185741950034F466 /* TLMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMenuViewController.h; sourceTree = "<group>"; };
+		EEF54CE8185741950034F466 /* TLMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMenuViewController.m; sourceTree = "<group>"; };
+		EEF54CE9185741950034F466 /* TLMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLMenuViewController.xib; sourceTree = "<group>"; };
+		EEF54CEE1857458C0034F466 /* setting_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_bg.png; sourceTree = "<group>"; };
+		EEF54CF01857473C0034F466 /* TLSettingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSettingListViewController.h; sourceTree = "<group>"; };
+		EEF54CF11857473C0034F466 /* TLSettingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSettingListViewController.m; sourceTree = "<group>"; };
+		EEF54CF21857473C0034F466 /* TLSettingListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLSettingListViewController.xib; sourceTree = "<group>"; };
+		EEF54CF5185749F00034F466 /* TLSettingDateTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSettingDateTimeViewController.h; sourceTree = "<group>"; };
+		EEF54CF6185749F00034F466 /* TLSettingDateTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSettingDateTimeViewController.m; sourceTree = "<group>"; };
+		EEF54CF7185749F00034F466 /* TLSettingDateTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLSettingDateTimeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262104491856CF680087763D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262104501856CF680087763D /* UIKit.framework in Frameworks */,
+				262104521856CF680087763D /* Foundation.framework in Frameworks */,
+				262104541856CF680087763D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE67CB4D185DF15E008DA12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67CB4E185DF15E008DA12F /* UIKit.framework in Frameworks */,
+				EE67CB4F185DF15E008DA12F /* Foundation.framework in Frameworks */,
+				EE67CB50185DF15E008DA12F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262104431856CF680087763D = {
+			isa = PBXGroup;
+			children = (
+				EEF54CED1857458C0034F466 /* resource */,
+				EEF54CDE1857237A0034F466 /* Model */,
+				262104551856CF680087763D /* Tasklist */,
+				2621044E1856CF680087763D /* Frameworks */,
+				2621044D1856CF680087763D /* Products */,
+				EE67CB73185DF15E008DA12F /* Tasklist copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		2621044D1856CF680087763D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2621044C1856CF680087763D /* Tasklist.app */,
+				EE67CB72185DF15E008DA12F /* Tasklist copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2621044E1856CF680087763D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2621044F1856CF680087763D /* UIKit.framework */,
+				262104511856CF680087763D /* Foundation.framework */,
+				262104531856CF680087763D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		262104551856CF680087763D /* Tasklist */ = {
+			isa = PBXGroup;
+			children = (
+				EEF54CEC185743860034F466 /* Setting */,
+				2621045E1856CF680087763D /* TLAppDelegate.h */,
+				2621045F1856CF680087763D /* TLAppDelegate.m */,
+				262104671856CF680087763D /* TLViewController.h */,
+				262104681856CF680087763D /* TLViewController.m */,
+				2621046A1856CF680087763D /* TLViewController.xib */,
+				EE67CAF618588AFB008DA12F /* TLCustomCell.h */,
+				EE67CAF718588AFB008DA12F /* TLCustomCell.m */,
+				EE67CAF918588B13008DA12F /* CustomCell.xib */,
+				EE67CAEC1858132F008DA12F /* TLCustomCellViewController.h */,
+				EE67CAED1858132F008DA12F /* TLCustomCellViewController.m */,
+				EE67CAEE1858132F008DA12F /* TLCustomCellViewController.xib */,
+				EEF54CE21857253D0034F466 /* TLAddTaskViewController.h */,
+				EEF54CE31857253D0034F466 /* TLAddTaskViewController.m */,
+				EEF54CE41857253D0034F466 /* TLAddTaskViewController.xib */,
+				EE67CAFD185971F0008DA12F /* TLEditTaskViewController.h */,
+				EE67CAFE185971F0008DA12F /* TLEditTaskViewController.m */,
+				EE67CAFF185971F0008DA12F /* TLEditTaskViewController.xib */,
+				EE67CB02185A1453008DA12F /* TLDetailTaskViewController.h */,
+				EE67CB03185A1453008DA12F /* TLDetailTaskViewController.m */,
+				EE67CB04185A1453008DA12F /* TLDetailTaskViewController.xib */,
+				262104561856CF680087763D /* Supporting Files */,
+			);
+			path = Tasklist;
+			sourceTree = "<group>";
+		};
+		262104561856CF680087763D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				262104571856CF680087763D /* Tasklist-Info.plist */,
+				262104581856CF680087763D /* InfoPlist.strings */,
+				2621045B1856CF680087763D /* main.m */,
+				2621045D1856CF680087763D /* Tasklist-Prefix.pch */,
+				262104611856CF680087763D /* Default.png */,
+				262104631856CF680087763D /* Default@2x.png */,
+				262104651856CF680087763D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF54CDE1857237A0034F466 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEF54CDF1857237A0034F466 /* LLTask.h */,
+				EEF54CE01857237A0034F466 /* LLTask.m */,
+			);
+			name = Model;
+			path = Tasklist/Model;
+			sourceTree = "<group>";
+		};
+		EEF54CEC185743860034F466 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EEF54CE7185741950034F466 /* TLMenuViewController.h */,
+				EEF54CE8185741950034F466 /* TLMenuViewController.m */,
+				EEF54CE9185741950034F466 /* TLMenuViewController.xib */,
+				EE2A63FD185EDAFA0029AD26 /* TLMenuViewController_lite.xib */,
+				EEF54CF01857473C0034F466 /* TLSettingListViewController.h */,
+				EEF54CF11857473C0034F466 /* TLSettingListViewController.m */,
+				EEF54CF21857473C0034F466 /* TLSettingListViewController.xib */,
+				EEF54CF5185749F00034F466 /* TLSettingDateTimeViewController.h */,
+				EEF54CF6185749F00034F466 /* TLSettingDateTimeViewController.m */,
+				EEF54CF7185749F00034F466 /* TLSettingDateTimeViewController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		EEF54CED1857458C0034F466 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EE2A63E3185EC7C30029AD26 /* fIcon-29.png */,
+				EE2A63E4185EC7C30029AD26 /* fIcon-50.png */,
+				EE2A63E5185EC7C30029AD26 /* fIcon-57.png */,
+				EE2A63E6185EC7C30029AD26 /* fIcon-58.png */,
+				EE2A63E7185EC7C30029AD26 /* fIcon-72.png */,
+				EE2A63E8185EC7C30029AD26 /* fIcon-80.png */,
+				EE2A63E9185EC7C30029AD26 /* fIcon-100.png */,
+				EE2A63EA185EC7C30029AD26 /* fIcon-114.png */,
+				EE2A63EB185EC7C30029AD26 /* fIcon-120.png */,
+				EE2A63EC185EC7C30029AD26 /* fIcon-144.png */,
+				EE67CB2B185DD5F8008DA12F /* Icon-29.png */,
+				EE67CB2C185DD5F8008DA12F /* Icon-50.png */,
+				EE67CB2D185DD5F8008DA12F /* Icon-57.png */,
+				EE67CB2E185DD5F8008DA12F /* Icon-58.png */,
+				EE67CB2F185DD5F8008DA12F /* Icon-72.png */,
+				EE67CB3D185DD8EC008DA12F /* Icon-80.png */,
+				EE67CB30185DD5F8008DA12F /* Icon-100.png */,
+				EE67CB31185DD5F8008DA12F /* Icon-114.png */,
+				EE67CB3B185DD74D008DA12F /* Icon-120.png */,
+				EE67CB32185DD5F8008DA12F /* Icon-144.png */,
+				EE67CB1F185D4E1F008DA12F /* back.png */,
+				EE67CB0B185C07CD008DA12F /* plus.png */,
+				EE67CB0C185C07CD008DA12F /* plus@2x.png */,
+				EE67CAE8185810C4008DA12F /* checked_checkbox.png */,
+				EE67CAE9185810C4008DA12F /* unchecked_checkbox.png */,
+				EEF54CEE1857458C0034F466 /* setting_bg.png */,
+				EE2A63F7185EC93D0029AD26 /* setting_bg1.png */,
+			);
+			name = resource;
+			path = Tasklist/resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2621044B1856CF680087763D /* Tasklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2621046F1856CF680087763D /* Build configuration list for PBXNativeTarget "Tasklist" */;
+			buildPhases = (
+				262104481856CF680087763D /* Sources */,
+				262104491856CF680087763D /* Frameworks */,
+				2621044A1856CF680087763D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tasklist;
+			productName = Tasklist;
+			productReference = 2621044C1856CF680087763D /* Tasklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE67CB3F185DF15E008DA12F /* Tasklist free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE67CB6F185DF15E008DA12F /* Build configuration list for PBXNativeTarget "Tasklist free" */;
+			buildPhases = (
+				EE67CB40185DF15E008DA12F /* Sources */,
+				EE67CB4D185DF15E008DA12F /* Frameworks */,
+				EE67CB51185DF15E008DA12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tasklist free";
+			productName = Tasklist;
+			productReference = EE67CB72185DF15E008DA12F /* Tasklist copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		262104441856CF680087763D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = devmania;
+			};
+			buildConfigurationList = 262104471856CF680087763D /* Build configuration list for PBXProject "Tasklist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 262104431856CF680087763D;
+			productRefGroup = 2621044D1856CF680087763D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2621044B1856CF680087763D /* Tasklist */,
+				EE67CB3F185DF15E008DA12F /* Tasklist free */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2621044A1856CF680087763D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2A63F1185EC7C30029AD26 /* fIcon-72.png in Resources */,
+				EE67CB3C185DD74D008DA12F /* Icon-120.png in Resources */,
+				EEF54CEB185741950034F466 /* TLMenuViewController.xib in Resources */,
+				EE67CB0D185C07CD008DA12F /* plus.png in Resources */,
+				EE67CAEB185810C5008DA12F /* unchecked_checkbox.png in Resources */,
+				EE67CAFA18588B13008DA12F /* CustomCell.xib in Resources */,
+				2621045A1856CF680087763D /* InfoPlist.strings in Resources */,
+				EE2A63F6185EC7C30029AD26 /* fIcon-144.png in Resources */,
+				EE2A63F5185EC7C30029AD26 /* fIcon-120.png in Resources */,
+				EE2A63ED185EC7C30029AD26 /* fIcon-29.png in Resources */,
+				EE2A63EF185EC7C30029AD26 /* fIcon-57.png in Resources */,
+				EE67CB3E185DD8EC008DA12F /* Icon-80.png in Resources */,
+				EE67CB37185DD5F8008DA12F /* Icon-72.png in Resources */,
+				EE2A63EE185EC7C30029AD26 /* fIcon-50.png in Resources */,
+				EE67CB06185A1453008DA12F /* TLDetailTaskViewController.xib in Resources */,
+				EE2A63F3185EC7C30029AD26 /* fIcon-100.png in Resources */,
+				EE2A63F0185EC7C30029AD26 /* fIcon-58.png in Resources */,
+				EE2A63F8185EC93D0029AD26 /* setting_bg1.png in Resources */,
+				EEF54CF41857473C0034F466 /* TLSettingListViewController.xib in Resources */,
+				EEF54CE61857253D0034F466 /* TLAddTaskViewController.xib in Resources */,
+				EE2A63F2185EC7C30029AD26 /* fIcon-80.png in Resources */,
+				EE67CAEA185810C5008DA12F /* checked_checkbox.png in Resources */,
+				EE67CAF01858132F008DA12F /* TLCustomCellViewController.xib in Resources */,
+				EEF54CF9185749F00034F466 /* TLSettingDateTimeViewController.xib in Resources */,
+				EE67CB34185DD5F8008DA12F /* Icon-50.png in Resources */,
+				EE67CB38185DD5F8008DA12F /* Icon-100.png in Resources */,
+				262104621856CF680087763D /* Default.png in Resources */,
+				EE67CB39185DD5F8008DA12F /* Icon-114.png in Resources */,
+				EE67CB20185D4E1F008DA12F /* back.png in Resources */,
+				EE67CB36185DD5F8008DA12F /* Icon-58.png in Resources */,
+				EE67CB01185971F0008DA12F /* TLEditTaskViewController.xib in Resources */,
+				262104641856CF680087763D /* Default@2x.png in Resources */,
+				EE67CB0E185C07CD008DA12F /* plus@2x.png in Resources */,
+				262104661856CF680087763D /* Default-568h@2x.png in Resources */,
+				2621046C1856CF680087763D /* TLViewController.xib in Resources */,
+				EEF54CEF1857458C0034F466 /* setting_bg.png in Resources */,
+				EE2A63F4185EC7C30029AD26 /* fIcon-114.png in Resources */,
+				EE67CB35185DD5F8008DA12F /* Icon-57.png in Resources */,
+				EE67CB3A185DD5F8008DA12F /* Icon-144.png in Resources */,
+				EE67CB33185DD5F8008DA12F /* Icon-29.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE67CB51185DF15E008DA12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67CB54185DF15E008DA12F /* plus.png in Resources */,
+				EE67CB55185DF15E008DA12F /* unchecked_checkbox.png in Resources */,
+				EE67CB56185DF15E008DA12F /* CustomCell.xib in Resources */,
+				EE67CB57185DF15E008DA12F /* InfoPlist.strings in Resources */,
+				EE67CB5A185DF15E008DA12F /* TLDetailTaskViewController.xib in Resources */,
+				EE67CB5B185DF15E008DA12F /* TLSettingListViewController.xib in Resources */,
+				EE67CB5C185DF15E008DA12F /* TLAddTaskViewController.xib in Resources */,
+				EE67CB5D185DF15E008DA12F /* checked_checkbox.png in Resources */,
+				EE67CB5E185DF15E008DA12F /* TLCustomCellViewController.xib in Resources */,
+				EE67CB5F185DF15E008DA12F /* TLSettingDateTimeViewController.xib in Resources */,
+				EE2A63FF185EDB6E0029AD26 /* TLMenuViewController_lite.xib in Resources */,
+				EE67CB62185DF15E008DA12F /* Default.png in Resources */,
+				EE67CB64185DF15E008DA12F /* back.png in Resources */,
+				EE67CB66185DF15E008DA12F /* TLEditTaskViewController.xib in Resources */,
+				EE67CB67185DF15E008DA12F /* Default@2x.png in Resources */,
+				EE67CB68185DF15E008DA12F /* plus@2x.png in Resources */,
+				EE67CB69185DF15E008DA12F /* Default-568h@2x.png in Resources */,
+				EE67CB6A185DF15E008DA12F /* TLViewController.xib in Resources */,
+				EE67CB6B185DF15E008DA12F /* setting_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		262104481856CF680087763D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67CAF818588AFB008DA12F /* TLCustomCell.m in Sources */,
+				EEF54CF31857473C0034F466 /* TLSettingListViewController.m in Sources */,
+				2621045C1856CF680087763D /* main.m in Sources */,
+				EEF54CF8185749F00034F466 /* TLSettingDateTimeViewController.m in Sources */,
+				EE67CB05185A1453008DA12F /* TLDetailTaskViewController.m in Sources */,
+				EE67CB00185971F0008DA12F /* TLEditTaskViewController.m in Sources */,
+				EE67CAEF1858132F008DA12F /* TLCustomCellViewController.m in Sources */,
+				262104601856CF680087763D /* TLAppDelegate.m in Sources */,
+				EEF54CE11857237A0034F466 /* LLTask.m in Sources */,
+				EEF54CE51857253D0034F466 /* TLAddTaskViewController.m in Sources */,
+				262104691856CF680087763D /* TLViewController.m in Sources */,
+				EEF54CEA185741950034F466 /* TLMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE67CB40185DF15E008DA12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67CB41185DF15E008DA12F /* TLCustomCell.m in Sources */,
+				EE67CB42185DF15E008DA12F /* TLSettingListViewController.m in Sources */,
+				EE67CB43185DF15E008DA12F /* main.m in Sources */,
+				EE67CB44185DF15E008DA12F /* TLSettingDateTimeViewController.m in Sources */,
+				EE67CB45185DF15E008DA12F /* TLDetailTaskViewController.m in Sources */,
+				EE67CB46185DF15E008DA12F /* TLEditTaskViewController.m in Sources */,
+				EE67CB47185DF15E008DA12F /* TLCustomCellViewController.m in Sources */,
+				EE67CB48185DF15E008DA12F /* TLAppDelegate.m in Sources */,
+				EE67CB49185DF15E008DA12F /* LLTask.m in Sources */,
+				EE67CB4A185DF15E008DA12F /* TLAddTaskViewController.m in Sources */,
+				EE67CB4B185DF15E008DA12F /* TLViewController.m in Sources */,
+				EE67CB4C185DF15E008DA12F /* TLMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		262104581856CF680087763D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262104591856CF680087763D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2621046A1856CF680087763D /* TLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2621046B1856CF680087763D /* en */,
+			);
+			name = TLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2621046D1856CF680087763D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2621046E1856CF680087763D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		262104701856CF680087763D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haneef Muhammad (X5EQ8AG5E4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasklist/Tasklist-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PAID;
+				INFOPLIST_FILE = "Tasklist/Tasklist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A07631C8-7DBB-4934-B8BB-4C1961B17D22";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		262104711856CF680087763D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haneef Muhammad (X5EQ8AG5E4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasklist/Tasklist-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PAID;
+				INFOPLIST_FILE = "Tasklist/Tasklist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A07631C8-7DBB-4934-B8BB-4C1961B17D22";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE67CB70185DF15E008DA12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haneef Muhammad (X5EQ8AG5E4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasklist/Tasklist-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = LITE;
+				INFOPLIST_FILE = "Tasklist copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Tasklist copy";
+				PROVISIONING_PROFILE = "A07631C8-7DBB-4934-B8BB-4C1961B17D22";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE67CB71185DF15E008DA12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haneef Muhammad (X5EQ8AG5E4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasklist/Tasklist-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = LITE;
+				INFOPLIST_FILE = "Tasklist copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Tasklist copy";
+				PROVISIONING_PROFILE = "A07631C8-7DBB-4934-B8BB-4C1961B17D22";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262104471856CF680087763D /* Build configuration list for PBXProject "Tasklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2621046D1856CF680087763D /* Debug */,
+				2621046E1856CF680087763D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2621046F1856CF680087763D /* Build configuration list for PBXNativeTarget "Tasklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262104701856CF680087763D /* Debug */,
+				262104711856CF680087763D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE67CB6F185DF15E008DA12F /* Build configuration list for PBXNativeTarget "Tasklist free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE67CB70185DF15E008DA12F /* Debug */,
+				EE67CB71185DF15E008DA12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 262104441856CF680087763D /* Project object */;
+}
